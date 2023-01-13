@@ -55,7 +55,7 @@ function Home({db, uid, user, picURL}){
     return(
         <div className="HomePage">
             <div className="Header">
-              <img src={picURL} alt="pic"></img>
+              <img className="ProfilePic" src={picURL} alt="pic"></img>
                 <h2>{user}</h2>
                 <button onClick={logout}>Logout</button>
             </div>

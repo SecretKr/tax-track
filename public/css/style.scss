@@ -46,45 +46,46 @@ html {
 
 .HomePage {
     text-align: center;
-    .Header {
-        background-color: $primary1;
-        position: relative;
+}
+
+.Header {
+    background-color: $primary1;
+    position: relative;
+    height: 3rem;
+    .ProfilePic {
+        display: inline-flex;
+        position: absolute;
+        left: 0;
+        height: 2rem;
+        padding: 0.5rem;
+        border-radius: 30%;
+    }
+    h2 {
+        display: inline-flex;
+        position: absolute;
+        font-size: 1.2rem;
+        padding: 0.8rem;
+        color: $dark2;
+        margin: 0;
+        left: 2.2rem;
+    }
+    button {
+        position: absolute;
         height: 3rem;
-        img {
-            display: inline-flex;
-            position: absolute;
-            left: 0;
-            height: 2rem;
-            padding: 0.5rem;
-            border-radius: 30%;
-        }
-        h2 {
-            display: inline-flex;
-            position: absolute;
-            font-size: 1.2rem;
-            padding: 0.8rem;
-            color: $dark2;
-            margin: 0;
-            left: 2.2rem;
-        }
-        button {
-            position: absolute;
-            height: 3rem;
-            width: 7rem;
-            padding: 0.5rem;
-            font-size: 1.2rem;
-            font-weight: bold;
-            color: $dark2;
-            margin: 0;
-            right: 0;
-            transition: all 0.3s;
-            background-color: $primary2;
-            border: none;
-            text-align: center;
-            cursor: pointer;
-            &:hover {
-                background-color: $primary3;
-            }
+        width: 7rem;
+        padding: 0.5rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: $dark2;
+        margin: 0;
+        right: 0;
+        transition: all 0.3s;
+        background-color: $primary2;
+        border: none;
+        text-align: center;
+        cursor: pointer;
+        &:hover {
+            background-color: $primary3;
         }
     }
 }

@@ -45,13 +45,13 @@ html {
   text-align: center;
 }
 
-.HomePage .Header {
+.Header {
   background-color: #E1D7C6;
   position: relative;
   height: 3rem;
 }
 
-.HomePage .Header img {
+.Header .ProfilePic {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -62,7 +62,7 @@ html {
   border-radius: 30%;
 }
 
-.HomePage .Header h2 {
+.Header h2 {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -74,7 +74,7 @@ html {
   left: 2.2rem;
 }
 
-.HomePage .Header button {
+.Header button {
   position: absolute;
   height: 3rem;
   width: 7rem;
@@ -92,7 +92,7 @@ html {
   cursor: pointer;
 }
 
-.HomePage .Header button:hover {
+.Header button:hover {
   background-color: #c8bca9;
 }
 
