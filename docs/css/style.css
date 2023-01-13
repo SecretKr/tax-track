@@ -51,13 +51,27 @@ html {
   height: 3rem;
 }
 
+.HomePage .Header img {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: absolute;
+  left: 0;
+  height: 2rem;
+  padding: 0.5rem;
+  border-radius: 30%;
+}
+
 .HomePage .Header h2 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   position: absolute;
   font-size: 1.2rem;
   padding: 0.8rem;
   color: #797160;
   margin: 0;
-  left: 0;
+  left: 2.2rem;
 }
 
 .HomePage .Header button {

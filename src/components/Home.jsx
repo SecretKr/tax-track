@@ -4,7 +4,7 @@ import { ref, set, onValue, remove, push } from "firebase/database";
 import Bill from "./Bill"
 import AddBill from "./AddBill";
 
-function Home({db, uid, user}){
+function Home({db, uid, user, picURL}){
     const logout = () => {
         localStorage.clear()
         window.location.reload()
@@ -55,7 +55,8 @@ function Home({db, uid, user}){
     return(
         <div className="HomePage">
             <div className="Header">
-                <h2>User: {user}</h2>
+              <img src={picURL} alt="pic"></img>
+                <h2>{user}</h2>
                 <button onClick={logout}>Logout</button>
             </div>
             <br/><br/>
